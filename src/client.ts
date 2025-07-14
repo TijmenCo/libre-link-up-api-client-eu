@@ -8,7 +8,7 @@ import { GraphData } from './types/graph';
 import { LoginResponse, LoginRedirectResponse, StepData } from './types/login';
 import { mapData, trendMap } from './utils';
 
-const LIBRE_LINK_SERVER = 'https://api-us.libreview.io';
+const LIBRE_LINK_SERVER = 'https://api-eu.libreview.io';
 
 type ClientArgs = {
   username: string;
